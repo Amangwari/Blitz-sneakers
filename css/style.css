@@ -275,6 +275,8 @@ label {
 	color: #888;
 }
 
+#navbarNav .nav-link:hover{    color: #FFCC06!important;}
+
 .btn,
 .transparent-btn,
 .faq-wrapper .card-header h5 a::after,
