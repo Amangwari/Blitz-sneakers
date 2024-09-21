@@ -2,6 +2,11 @@
 "use strict";
 
 // preloader
+/* 
+Author: Aman Gwari
+Company: Webscrew.in
+mail: amangwari29sep@gmail.com
+ */
 function preloader() {
 	$('#preloader').delay(0).fadeOut();
 };
