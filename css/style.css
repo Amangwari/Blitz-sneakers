@@ -182,6 +182,57 @@ label {
 	opacity: 1;
 }
 
+/* HEADING TEXT CHAGNE */
+.word {
+	position: absolute;
+	/* width: 220px; */
+	opacity: 0;
+}
+
+.letter {
+	display: inline-block;
+	position: relative;
+	float: left;
+	transform: translateZ(25px);
+	transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+	transform: rotateX(90deg);
+	transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+	transform: rotateX(-90deg);
+}
+
+.letter.in {
+	transform: rotateX(0deg);
+	transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.slider-content h2 .wisteria {
+	color: #3C4B24 !important;
+}
+
+.belize {
+	color: #2980b9 !important;
+}
+
+.pomegranate {
+	color: #c0392b !important;
+}
+
+.green {
+	color: #16a085 !important;
+}
+
+.midnight {
+	color: #8e44ad !important;
+}
+
+/* HEADING TEXT CHAGNE */
+
 .theme-overlay {
 	position: relative
 }
@@ -275,7 +326,9 @@ label {
 	color: #888;
 }
 
-#navbarNav .nav-link:hover{    color: #FFCC06!important;}
+#navbarNav .nav-link:hover {
+	color: #FFCC06 !important;
+}
 
 .btn,
 .transparent-btn,
@@ -350,7 +403,6 @@ label {
 .transparent-btn,
 .header-action ul li a,
 .main-menu .navbar-nav li.nav-item.active a.nav-link,
-.slider-content h2 span,
 .single-delivery-services:hover .ds-content h5,
 .fact-bg .section-title h2 span,
 .doctor-info h6,
