@@ -1544,11 +1544,13 @@ label {
 .single-product-nav {
 	text-align: center;
 	margin: 0 10px;
+	height: 150px;
 }
 
 .single-product-nav img {
 	display: inline-block;
 	width: 100%;
+	height: 100%;
 	cursor: pointer;
 }
 

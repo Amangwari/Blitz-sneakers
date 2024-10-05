@@ -1,0 +1,63 @@
+/* SECTIONS */
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+
+/* HOME SECTION */
+.abouuspage {
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.home-content {
+    position: relative;
+    z-index: 10;
+}
+
+/* Reference: https://stackoverflow.com/questions/43683187/how-can-i-create-custom-underline-or-highlight-for-text-in-html-or-css */
+.highlight {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0) 50%,
+            #FFCC06 50%);
+    padding: 0 0.25rem;
+}
+
+
+
+/* SERVICES */
+
+.services {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.services .service .icon img {
+    max-width: 100px;
+}
+
+.services .service {
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.services .service h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #1b206e;
+}
+
+.services .service p {
+    line-height: normal;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
