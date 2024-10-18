@@ -958,7 +958,7 @@ header{
 	left: -90px;
 	top: -15px;
 	z-index: -1;
-	filter: brightness(0) saturate(100%) invert(88%) sepia(76%) saturate(1888%) hue-rotate(359deg) brightness(104%) contrast(107%);
+	filter:brightness(52) saturate(100%) invert(90%) sepia(89%) saturate(1944%) hue-rotate(359deg) brightness(115%) contrast(119%);
 }
 
 .d-services-img::after {
@@ -970,7 +970,7 @@ header{
 	background-repeat: no-repeat;
 	left: -155px;
 	top: -20px;
-	filter: brightness(0) saturate(100%) invert(88%) sepia(76%) saturate(1888%) hue-rotate(359deg) brightness(104%) contrast(107%);
+	filter: brightness(23) saturate(94%) invert(91%) sepia(76%) saturate(1888%) hue-rotate(359deg) brightness(104%) contrast(107%);
 	z-index: -1;
 }
 
