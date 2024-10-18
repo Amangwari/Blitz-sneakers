@@ -722,10 +722,11 @@ header{
 }
 
 .slider-content h2 {
-	font-size: 65px;
+	font-size: 54px;
 	line-height: 1.2;
 	margin-bottom: 15px;
 	letter-spacing: -2px;
+	color: #3C4B24 ;
 }
 
 .slider-content p {
