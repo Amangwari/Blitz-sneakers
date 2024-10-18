@@ -17,6 +17,7 @@
 
 
     <!-- CSS here -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -27,19 +28,33 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="./css/contact.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
     <style>
         header {
             position: unset;
         }
     </style>
 </head>
-</head>
+
+
 
 <body>
 
+    <!-- preloader -->
+    <!-- <div id="preloader">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+            </div>
+        </div>
+    </div> -->
+    <!-- preloader-end -->
 
     <!-- header-start -->
     <header>
@@ -89,63 +104,66 @@
 
 
     <!-- main-area -->
-    <div class="container">
-        <div class="innerwrap" style="margin-top: 40px;">
-
+    <main class="wrap tandcpages" style="margin-top: 40px; margin-bottom: 40px;">
+        <section class="container">
             <div class="section-title text-center mb-55 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                <h2>Contact us</h2>
+                <h2>Refund Policy</h2>
                 <div class="bar"></div>
             </div>
-            <section class="section2 clearfix">
-                <div class="col2 column1 first">
-                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                    <div class="sec2map" style='overflow:hidden;height:550px;width:100%;'>
-                        <div id='gmap_canvas' style='height:100%;width:100%;'></div>
-                        <div><small><a href="http://embedgooglemaps.com"> embed google maps </a></small></div>
-                        <div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small>
-                        </div>
-                        <style>
-                            #gmap_canvas img {
-                                max-width: none !important;
-                                background: none !important
-                            }
-                        </style>
-                    </div>
-                    <script
-                        type='text/javascript'>function init_map() { var myOptions = { zoom: 14, center: new google.maps.LatLng(19.075314480255834, 72.88153973865361), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(19.075314480255834, 72.88153973865361) }); infowindow = new google.maps.InfoWindow({ content: '<strong>My Location</strong><br>mumbai<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
-                </div>
-                <div class="col2 column2 last">
-                    <div class="sec2innercont">
-                        <div class="sec2addr">
-                            <!-- <p>45 BC, a Latin professor at Hampden-Sydney College in Virginia</p> -->
-                            <p><span class="collig">Email1 :</span> Care@blitzshine.co.uk</p>
-                            <p><span class="collig">Email2 :</span> Slaes@blitzshine.co.uk</p>
-                            <!-- <p><span class="collig">Fax :</span> +91 9768850839</p> -->
-                        </div>
-                    </div>
-                    <div class="sec2contactform">
-                        <h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
-                        <form action="">
-                            <div class="clearfix">
-                                <input class="col2 first" type="text" placeholder="FirstName">
-                                <input class="col2 last" type="text" placeholder="LastName">
-                            </div>
-                            <div class="clearfix">
-                                <input class="col2 first" type="Email" placeholder="Email">
-                                <input class="col2 last" type="text" placeholder="Contact Number">
-                            </div>
-                            <div class="clearfix">
-                                <textarea name="textarea" id="" cols="30" rows="7">Your message here...</textarea>
-                            </div>
-                            <div class="clearfix"><input type="submit" value="Send"></div>
-                        </form>
-                    </div>
+            <p>We at Blitz are committed to ensuring your satisfaction with our products. If you are not completely
+                happy with your purchase, we offer the following refund policy:</p>
+            <div class="container__content">
 
-                </div>
-            </section>
 
-        </div>
-    </div>
+                <p> <strong>Refund Eligibility : </strong>You may request a refund within 30 days of receiving your
+                    product if :-
+                <ol>
+                    <li>Process and fulfill your orders
+                    </li>
+                    <li>The product is defective</li>
+                    <li>The product arrived damaged</li>
+                    <li>You received the wrong product</li>
+                </ol>
+                To be eligible for a refund, the product must be unused, in its original packaging, and accompanied by a
+                proof of purchase.
+                </p>
+
+
+                <p> <strong>Refund Process : </strong>
+                    To initiate a refund, please contact us at [email address] with your order details, reason for
+                    return, and photos (if applicable). Our customer support team will review your request and, if
+                    approved, provide you with return instructions.
+                </p>
+                <p>Once we receive and inspect the returned item, we will notify you of the approval or rejection of
+                    your refund. If approved, your refund will be processed within 7-10 business days, and the amount
+                    will be credited to your original method of payment.</p>
+
+
+                <p> <strong>Return Shipping Costs : </strong>If the product is returned due to an error on our part
+                    (wrong or defective item), we will cover the return shipping costs. Otherwise, return shipping will
+                    be at your expense.</p>
+
+                <p> <strong>Non-Refundable Items : </strong>
+                <ol>
+                    <li>Products that have been used or opened</li>
+                    <li>Items without original packaging or proof of purchase
+                    </li>
+                    <li>Items without original packaging or proof of purchase</li>
+                </ol>
+                </p>
+                <p> <strong>Exchanges : </strong>We do not offer direct exchanges. If you need a replacement, please
+                    return the original product for a refund and place a new order.
+                </p>
+                <p> <strong>Refund Timeframe : </strong>TimeframeDepending on your payment method and bank, refunds may
+                    take 7-10 business days to reflect in your account. If you haven’t received your refund after this
+                    period, please contact your bank or payment provider.</p>
+
+
+
+
+            </div>
+        </section>
+    </main>
     <!-- main-area-end -->
 
     <!-- footer -->
@@ -272,6 +290,27 @@
     <!-- footer-end -->
 
 
+    <script>
+        $('.testi.owl-carousel').owlCarousel({
+            items: 2,
+            margin: 10,
+            lazyLoad: true,
+            dots: true,
+            autoPlay: true,
+            autoPlayTimeout: 3000,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 2,
+                },
+                1000: {
+                    items: 2,
+                }
+            }
+        });
+    </script>
 
 
 
@@ -279,8 +318,10 @@
     <script src="./indexjs/vendor/jquery-1.12.4.min.js"></script>
     <script src="./indexjs/bootstrap.bundle.min.js"></script>
     <script src="./indexjs/contact-form-script.js"></script>
-
-
+    <script src="./indexjs/jquery.min.js"></script>
+    <script src="./indexjs/jquery.meanmenu.js"></script>
+    <script src="./indexjs/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./indexjs/email-decode.min.js"></script>
     <script src="./indexjs/form-validator.min.js"></script>
     <script src="./indexjs/owl.carousel.min.js"></script>

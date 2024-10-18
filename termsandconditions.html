@@ -17,6 +17,7 @@
 
 
     <!-- CSS here -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -27,19 +28,33 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="./css/contact.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
     <style>
         header {
             position: unset;
         }
     </style>
 </head>
-</head>
+
+
 
 <body>
 
+    <!-- preloader -->
+    <!-- <div id="preloader">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+            </div>
+        </div>
+    </div> -->
+    <!-- preloader-end -->
 
     <!-- header-start -->
     <header>
@@ -89,63 +104,56 @@
 
 
     <!-- main-area -->
-    <div class="container">
-        <div class="innerwrap" style="margin-top: 40px;">
-
+    <main class="wrap tandcpages" style="margin-top: 40px; margin-bottom: 40px;">
+        <section class="container">
             <div class="section-title text-center mb-55 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                <h2>Contact us</h2>
+                <h2>Terms & Conditions</h2>
                 <div class="bar"></div>
             </div>
-            <section class="section2 clearfix">
-                <div class="col2 column1 first">
-                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                    <div class="sec2map" style='overflow:hidden;height:550px;width:100%;'>
-                        <div id='gmap_canvas' style='height:100%;width:100%;'></div>
-                        <div><small><a href="http://embedgooglemaps.com"> embed google maps </a></small></div>
-                        <div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small>
-                        </div>
-                        <style>
-                            #gmap_canvas img {
-                                max-width: none !important;
-                                background: none !important
-                            }
-                        </style>
-                    </div>
-                    <script
-                        type='text/javascript'>function init_map() { var myOptions = { zoom: 14, center: new google.maps.LatLng(19.075314480255834, 72.88153973865361), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(19.075314480255834, 72.88153973865361) }); infowindow = new google.maps.InfoWindow({ content: '<strong>My Location</strong><br>mumbai<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
-                </div>
-                <div class="col2 column2 last">
-                    <div class="sec2innercont">
-                        <div class="sec2addr">
-                            <!-- <p>45 BC, a Latin professor at Hampden-Sydney College in Virginia</p> -->
-                            <p><span class="collig">Email1 :</span> Care@blitzshine.co.uk</p>
-                            <p><span class="collig">Email2 :</span> Slaes@blitzshine.co.uk</p>
-                            <!-- <p><span class="collig">Fax :</span> +91 9768850839</p> -->
-                        </div>
-                    </div>
-                    <div class="sec2contactform">
-                        <h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
-                        <form action="">
-                            <div class="clearfix">
-                                <input class="col2 first" type="text" placeholder="FirstName">
-                                <input class="col2 last" type="text" placeholder="LastName">
-                            </div>
-                            <div class="clearfix">
-                                <input class="col2 first" type="Email" placeholder="Email">
-                                <input class="col2 last" type="text" placeholder="Contact Number">
-                            </div>
-                            <div class="clearfix">
-                                <textarea name="textarea" id="" cols="30" rows="7">Your message here...</textarea>
-                            </div>
-                            <div class="clearfix"><input type="submit" value="Send"></div>
-                        </form>
-                    </div>
+            <p>Welcome to Blitz! By accessing and using our website or placing an order, you agree to the following
+                terms and conditions. Please read them carefully before making a purchase.</p>
+            <div class="container__content">
+                <p> <strong>Product Use : </strong>Blitz sneaker cleaner kits are designed for personal use. The resale
+                    or commercial distribution of our products without prior authorization is strictly prohibited.
+                    Unauthorized use of our products may result in legal action.
+                </p>
 
-                </div>
-            </section>
+                <p> <strong>Pricing & Payments : </strong>All prices listed on the website are in Indian Rupees (INR).
+                    Prices are subject to change at any time without notice.
+                <ol>
+                    <li>We accept payments via secure online methods including credit cards, debit cards, UPI, and
+                        wallets.
+                    </li>
+                    <li>Full payment must be received at the time of purchase. Orders with incomplete payment or
+                        suspicious activity may be canceled at Blitz’s discretion.</li>
+                </ol>
+                </p>
 
-        </div>
-    </div>
+
+                <p> <strong>Order Acceptance : </strong>
+                    After placing an order, you will receive a confirmation email. This does not mean that your order
+                    has been accepted. We reserve the right to accept or reject any order for any reason, including
+                    stock availability, inaccuracies in product details, or suspected fraud.
+                </p>
+
+
+                <p> <strong>Shipping & Delivery : </strong>Blitz will make every effort to deliver your order in a
+                    timely manner. However, delivery times are estimates and may be affected by factors beyond our
+                    control, such as weather conditions, logistical delays, or transportation disruptions.</p>
+
+                <p> <strong>Intellectual Property Rights : </strong>All content on the Blitz website, including text,
+                    images, logos, and product descriptions, is owned by Blitz or our licensors. Reproduction or use of
+                    this content without express permission is prohibited.</p>
+                <p> <strong>Governing Law : </strong>These terms are governed by the laws of India. By accessing our
+                    website, you agree to submit to the jurisdiction of the Indian courts for any disputes that may
+                    arise.</p>
+
+
+
+
+            </div>
+        </section>
+    </main>
     <!-- main-area-end -->
 
     <!-- footer -->
@@ -272,6 +280,27 @@
     <!-- footer-end -->
 
 
+    <script>
+        $('.testi.owl-carousel').owlCarousel({
+            items: 2,
+            margin: 10,
+            lazyLoad: true,
+            dots: true,
+            autoPlay: true,
+            autoPlayTimeout: 3000,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 2,
+                },
+                1000: {
+                    items: 2,
+                }
+            }
+        });
+    </script>
 
 
 
@@ -279,8 +308,10 @@
     <script src="./indexjs/vendor/jquery-1.12.4.min.js"></script>
     <script src="./indexjs/bootstrap.bundle.min.js"></script>
     <script src="./indexjs/contact-form-script.js"></script>
-
-
+    <script src="./indexjs/jquery.min.js"></script>
+    <script src="./indexjs/jquery.meanmenu.js"></script>
+    <script src="./indexjs/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./indexjs/email-decode.min.js"></script>
     <script src="./indexjs/form-validator.min.js"></script>
     <script src="./indexjs/owl.carousel.min.js"></script>
