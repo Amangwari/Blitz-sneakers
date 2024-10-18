@@ -1142,10 +1142,12 @@ header{
 
 /* 7. Gallery */
 .gallery-bg {
-	background-image: url(../img/bg/gallery_bg.jpg);
+	/* background-image: url(../img/bg/gallery_bg.jpg); */
+	background-image: url(../img/gallerybg.png);
 	/* background: #000; */
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .product-menu {
