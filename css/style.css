@@ -83,7 +83,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Poppins', sans-serif;
-	color: #062a4d;
+	color: #3C4B24 ;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 700;
@@ -269,7 +269,7 @@ label {
 	line-height: 50px;
 }
 
-header{
+header {
 	position: absolute;
 	width: 100%;
 	z-index: 9999;
@@ -569,7 +569,7 @@ header{
 	z-index: 1;
 }
 
-.tandcpages li{
+.tandcpages li {
 	list-style-type: disc;
 }
 
@@ -726,7 +726,7 @@ header{
 	line-height: 1.2;
 	margin-bottom: 15px;
 	letter-spacing: -2px;
-	color: #3C4B24 ;
+	color: #3C4B24;
 }
 
 .slider-content p {
@@ -959,7 +959,7 @@ header{
 	left: -90px;
 	top: -15px;
 	z-index: -1;
-	filter:brightness(52) saturate(100%) invert(90%) sepia(89%) saturate(1944%) hue-rotate(359deg) brightness(115%) contrast(119%);
+	filter: brightness(52) saturate(100%) invert(90%) sepia(89%) saturate(1944%) hue-rotate(359deg) brightness(115%) contrast(119%);
 }
 
 .d-services-img::after {
@@ -977,7 +977,7 @@ header{
 
 .home-yellow .d-services-img::after {
 	background-image: url(../img/images/s_services_shape.png);
-	
+
 }
 
 .services-style-two .single-delivery-services {
@@ -1339,7 +1339,7 @@ header{
 }
 
 .faq-wrapper .card-header h5 a {
-	color: #000!important;
+	color: #000 !important;
 	font-size: 16px;
 	font-weight: 600;
 	display: block;
@@ -1732,18 +1732,19 @@ header{
 .product-info ul li:last-child {
 	margin-bottom: 0;
 }
-.qtybutton, .cart-plus-minus input{
+
+.qtybutton, .cart-plus-minus input {
 	color: #3C4B24;
 
 
 }
 
-.product-desc-wrap .nav-tabs .nav-item.show .nav-link, .product-desc-wrap .nav-tabs .nav-link{
-	color: #000!important;
+.product-desc-wrap .nav-tabs .nav-item.show .nav-link, .product-desc-wrap .nav-tabs .nav-link {
+	color: #000 !important;
 
 }
 
-.product-desc-wrap .nav-tabs .nav-item.show .nav-link, .product-desc-wrap .nav-tabs .nav-link.active{
+.product-desc-wrap .nav-tabs .nav-item.show .nav-link, .product-desc-wrap .nav-tabs .nav-link.active {
 	color: #3C4B24;
 
 }
@@ -2885,4 +2886,14 @@ blockquote::before {
 .testimonials .testi .item .icon i {
 	font-size: 32px;
 	color: #FFD832;
+}
+
+.img_sec_cong {
+	height: 300px;
+
+	img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
 }
